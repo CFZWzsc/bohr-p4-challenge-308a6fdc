@@ -9,7 +9,7 @@ answers, private data or credentials are included.
 ## Skill
 
 - Name: `source-faithful-manuscript-assembly`
-- Summary: Assemble an editable multi-section manuscript draft strictly from supplied research materials, tagging every sentence with a traceable source locator instead of inventing facts. Use when a task asks to turn lab notes, results and references into a sectioned academic draft with verifiable provenance.
+- Summary: Use when a case supplies lab notes, results and references and asks for a sectioned academic draft with verifiable provenance; assembles an editable Markdown manuscript from supplied sentences, tags every sentence with a traceable source locator, marks gaps for human confirmation, and writes /app/output/result.json preserving case_id and every output_contract field. Deterministic standard library only; no network.
 
 ## Contents
 
